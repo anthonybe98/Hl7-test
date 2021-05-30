@@ -1,0 +1,387 @@
+{
+ "msh": {
+  "field_separator": {
+   "st": {
+    "st": "\\F\\"
+   }
+  },
+  "encoding_characters": {
+   "st": {
+    "st": "\\S\\\\R\\\\E\\\\T\\"
+   }
+  },
+  "sending_application": {
+   "namespace_id": {
+    "is": "MegaReg"
+   }
+  },
+  "sending_facility": {
+   "namespace_id": {
+    "is": "XYZHospC"
+   }
+  },
+  "receiving_application": {
+   "namespace_id": {
+    "is": "SuperOE"
+   }
+  },
+  "receiving_facility": {
+   "namespace_id": {
+    "is": "XYZImgCtr"
+   }
+  },
+  "date_time_of_message": {
+   "time": {
+    "dtm": "20060529090131-0500"
+   }
+  },
+  "message_type": {
+   "message_code": {
+    "id": "ADT"
+   },
+   "trigger_event": {
+    "id": "A01"
+   },
+   "message_structure": {
+    "id": "ADT_A01"
+   }
+  },
+  "message_control_id": {
+   "st": {
+    "st": "01052901"
+   }
+  },
+  "processing_id": {
+   "processing_id": {
+    "id": "P"
+   }
+  },
+  "version_id": {
+   "version_id": {
+    "id": "2.5"
+   }
+  }
+ },
+ "evn": {
+  "recorded_date_time": {
+   "time": {
+    "dtm": "200605290901"
+   }
+  },
+  "event_occurred": {
+   "time": {
+    "dtm": "200605290900"
+   }
+  }
+ },
+ "pid": {
+  "patient_identifier_list": {
+   "id_number": {
+    "st": "56782445"
+   },
+   "assigning_authority": {
+    "namespace_id": "UAReg"
+   },
+   "identifier_type_code": {
+    "id": "PI"
+   }
+  },
+  "patient_name": {
+   "family_name": {
+    "surname": "KLEINSAMPLE"
+   },
+   "given_name": {
+    "st": "BARRY"
+   },
+   "second_and_further_given_names_or_initials_thereof": {
+    "st": "Q"
+   },
+   "suffix_e_g_jr_or_iii": {
+    "st": "JR"
+   }
+  },
+  "date_time_of_birth": {
+   "time": {
+    "dtm": "19620910"
+   }
+  },
+  "administrative_sex": {
+   "is": {
+    "is": "M"
+   }
+  },
+  "race": {
+   "identifier": {
+    "st": "2028-9"
+   },
+   "name_of_coding_system": {
+    "id": "HL70005"
+   },
+   "alternate_identifier": {
+    "st": "RA99113"
+   },
+   "name_of_alternate_coding_system": {
+    "id": "XYZ"
+   }
+  },
+  "patient_address": {
+   
+    "street_address": {
+     "street_or_mailing_address": "260 GOODWIN CREST DRIVE"
+    },
+    "city": {
+     "st": "BIRMINGHAM"
+    },
+    "state_or_province": {
+     "st": "AL"
+    },
+    "zip_or_postal_code": {
+     "st": "35209"
+    },
+    "address_type": {
+     "id": "M"
+    }
+   },
+  "patient_account_number": {
+   "id_number": {
+    "st": "0105I30001"
+   },
+   "assigning_authority": {
+    "namespace_id": "99DEF"
+   },
+   "identifier_type_code": {
+    "id": "AN"
+   }
+  }
+ },
+ "pv1": {
+  "patient_class": {
+   "is": {
+    "is": "I"
+   }
+  },
+  "assigned_patient_location": {
+   "point_of_care": {
+    "is": "W"
+   },
+   "room": {
+    "is": "389"
+   },
+   "bed": {
+    "is": "1"
+   },
+   "facility": {
+    "namespace_id": "UABH"
+   },
+   "floor": {
+    "is": "3"
+   }
+  },
+  "attending_doctor": {
+   "id_number": {
+    "st": "12345"
+   },
+   "family_name": {
+    "surname": "MORGAN"
+   },
+   "given_name": {
+    "st": "REX"
+   },
+   "second_and_further_given_names_or_initials_thereof": {
+    "st": "J"
+   },
+   "degree_e_g_md": {
+    "is": "MD"
+   },
+   "source_table": {
+    "is": "0010"
+   },
+   "assigning_authority": {
+    "namespace_id": "UAMC"
+   },
+   "name_type_code": {
+    "id": "L"
+   }
+  },
+  "consulting_doctor": {
+   "id_number": {
+    "st": "67890"
+   },
+   "family_name": {
+    "surname": "GRAINGER"
+   },
+   "given_name": {
+    "st": "LUCY"
+   },
+   "second_and_further_given_names_or_initials_thereof": {
+    "st": "X"
+   },
+   "degree_e_g_md": {
+    "is": "MD"
+   },
+   "source_table": {
+    "is": "0010"
+   },
+   "assigning_authority": {
+    "namespace_id": "UAMC"
+   },
+   "name_type_code": {
+    "id": "L"
+   }
+  },
+  "hospital_service": {
+   "is": {
+    "is": "MED"
+   }
+  },
+  "ambulatory_status": {
+   "is": {
+    "is": "A0"
+   }
+  },
+  "admitting_doctor": {
+   "id_number": {
+    "st": "13579"
+   },
+   "family_name": {
+    "surname": "POTTER"
+   },
+   "given_name": {
+    "st": "SHERMAN"
+   },
+   "second_and_further_given_names_or_initials_thereof": {
+    "st": "T"
+   },
+   "degree_e_g_md": {
+    "is": "MD"
+   },
+   "source_table": {
+    "is": "0010"
+   },
+   "assigning_authority": {
+    "namespace_id": "UAMC"
+   },
+   "name_type_code": {
+    "id": "L"
+   }
+  },
+  "admit_date_time": {
+   "time": {
+    "dtm": "200605290900"
+   }
+  }
+ },
+ "obx": [
+  {
+   "set_id_obx": {
+    "si": {
+     "si": "1"
+    }
+   },
+   "value_type": {
+    "id": {
+     "id": "NM"
+    }
+   },
+   "observation_identifier": {
+    "text": {
+     "st": "Body Height"
+    }
+   },
+   "observation_value": {
+    "varies_1": {
+     "st": "1.80"
+    }
+   },
+   "units": {
+    "identifier": {
+     "st": "m"
+    },
+    "text": {
+     "st": "Meter"
+    },
+    "name_of_coding_system": {
+     "id": "ISO+"
+    }
+   },
+   "observation_result_status": {
+    "id": {
+     "id": "F"
+    }
+   }
+  },
+  {
+   "set_id_obx": {
+    "si": {
+     "si": "2"
+    }
+   },
+   "value_type": {
+    "id": {
+     "id": "NM"
+    }
+   },
+   "observation_identifier": {
+    "text": {
+     "st": "Body Weight"
+    }
+   },
+   "observation_value": {
+    "varies_1": {
+     "st": "79"
+    }
+   },
+   "units": {
+    "identifier": {
+     "st": "kg"
+    },
+    "text": {
+     "st": "Kilogram"
+    },
+    "name_of_coding_system": {
+     "id": "ISO+"
+    }
+   },
+   "observation_result_status": {
+    "id": {
+     "id": "F"
+    }
+   }
+  }
+ ],
+ "al1": {
+  "set_id_al1": {
+   "si": {
+    "si": "1"
+   }
+  },
+  "allergen_code_mnemonic_description": {
+   "text": {
+    "st": "ASPIRIN"
+   }
+  }
+ },
+ "dg1": {
+  "set_id_dg1": {
+   "si": {
+    "si": "1"
+   }
+  },
+  "diagnosis_code_dg1": {
+   "identifier": {
+    "st": "786.50"
+   },
+   "text": {
+    "st": "CHEST PAIN, UNSPECIFIED"
+   },
+   "name_of_coding_system": {
+    "id": "I9"
+   }
+  },
+  "diagnosis_type": {
+   "is": {
+    "is": "A"
+   }
+  }
+ }
+}
