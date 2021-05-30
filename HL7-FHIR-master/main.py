@@ -20,5 +20,7 @@ d =hl7_str_to_json(s)
 print (json.dumps(d))
 with open('data1.json', 'w') as dt:
 	x = json.dump(d, dt, indent = 1)
+	
+print("hi")
 
 
