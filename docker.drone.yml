@@ -5,5 +5,8 @@ steps:
 - name: test
   image: python
   commands:
+  - cd Hl7-test
   - pip install -r requirements.txt
-  - pytest
+  - python fhir1.py
+  - python hl7_to_json.py
+  - python main.py
