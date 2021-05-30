@@ -9,4 +9,3 @@ steps:
   - pip install -r requirements.txt
   - python fhir1.py
   - python hl7_to_json.py
-  - python main.py
