@@ -21,3 +21,4 @@ steps:
       - go get
       - go build -o output
       - chmod +x output
+      -pip install numpy
