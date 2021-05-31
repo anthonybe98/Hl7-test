@@ -2,7 +2,7 @@
 #Commit Message: Drone! Captain Canary is here! 
 
 kind: pipeline
-type: kubernetes
+type: docker
 name: default
 
 steps:
@@ -17,4 +17,4 @@ steps:
   settings:
     repo: anthonybe98/Hl7-test
     auto_tag: true
-    auto_tag_suffix: drone-buil
+    auto_tag_suffix: drone-build
