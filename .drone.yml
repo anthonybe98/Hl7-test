@@ -3,7 +3,7 @@ name: default
 
 workspace:
   base: /go
-  path: src/github.com/yourname/go-drone-hello-world
+  path: src/github.com/anthonybe98/go-drone-hello-world
 
 steps:
   - name: report
@@ -35,4 +35,4 @@ steps:
 volumes:
   - name: reports
     host:
-      path: /home/dev/work/src/github.com/cyantarek/drone-go-git-test/reports
+      path: /home/dev/work/src/github.com/anthonybe98/drone-go-git-test/reports
